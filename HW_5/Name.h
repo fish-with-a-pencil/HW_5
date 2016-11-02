@@ -13,16 +13,16 @@
 #include <string>
 using namespace std;
 
-#endif /* defined(__HW_5__Name__) */
-
 class Name {
 private:
      string first, last;
 public:
      Name();
      Name(string, string);
-     Name *getPName();
      string getFirst();
      string getLast();
-     void setName(Name);
+     void setFirst(string);
+     void setLast(string);
 };
+
+#endif /* defined(__HW_5__Name__) */

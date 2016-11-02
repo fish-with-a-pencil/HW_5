@@ -19,8 +19,9 @@ private:
      Name name;
      string ssn;
 public:
-     Depositor ();
+     Depositor();
      string getSSN();
+     Name *getPName();
      void setSSN(string);
 };
 
